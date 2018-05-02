@@ -1,0 +1,24 @@
+{
+  "name": "xingwen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xx",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.2",
+    "koa": "^2.4.1",
+    "multer": "^1.3.0",
+    "mysql": "^2.15.0",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.4.1",
+    "phantom": "^4.0.12",
+    "socket.io": "^2.0.4",
+    "ws": "^4.0.0"
+  }
+}

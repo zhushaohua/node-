@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>socket</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var ws = new WebSocket('ws://127.0.0.1:8080')
+		ws.onopen = function(){
+			console.log('onopen')
+			ws.send('12345')
+		}
+		ws.onmessage = function(message){
+			console.log(message)
+		}
+		ws.onerror = function(){
+			console.log('onerror')
+		}
+		ws.onclose = function(){
+			console.log('onclose')
+		}
+		console.log(ws);
+	</script>
+</body>
+</html>
