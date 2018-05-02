@@ -1,9 +1,9 @@
 module.exports = {
 	mysql:{
-		host:'qdm167171215.my3w.com',
-		user:'qdm167171215',
-		password:'xingwen12138',
-		database:'qdm167171215_db',
+		host:'****',
+		user:'****',
+		password:'****',
+		database:'****',
 		port:'3306'
 	},
 	mail: {
@@ -13,8 +13,8 @@ module.exports = {
 	    // secureConnection: true,
 	    // service: 'QQ',
 	    auth: {
-	        user: 'xingwencoming@qq.com',
-	        pass: 'egdtjaqnhkzsbifa'
+	        user: '1212121@qq.com',
+	        pass: '12121'
 	    }
 	}
 }
